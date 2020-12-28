@@ -1,3 +1,3 @@
 # Kokoa Clone 2020
 
-My first making a website.
+My money will be much bigger
