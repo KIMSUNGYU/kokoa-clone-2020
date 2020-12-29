@@ -1,0 +1,4 @@
+.status-bar {
+  display: flex;
+  flex-direction: column;
+}
