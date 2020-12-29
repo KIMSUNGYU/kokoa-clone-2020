@@ -1,8 +1,7 @@
-.nav {
-  background-color: #f9f9fa;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
+/*왜 .nav에 배경색을 지정하면 작동이 안되는지?*/
 .nav__list {
+  background-color: rgba(122, 122, 122, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   position: fixed;
   bottom: 0;
   width: 100%;
