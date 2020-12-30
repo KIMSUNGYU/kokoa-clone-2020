@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  padding: 50px 40px;
 }
 .screen-header__title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
+}
+.screen-header__icons span {
+  margin-left: 25px; /*padding과 margin 서로 구별되어서 써야하는가?*/
 }
