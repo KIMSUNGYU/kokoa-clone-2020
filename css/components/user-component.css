@@ -1,11 +1,11 @@
 .user-component {
-  display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  /* display: flex;
+  margin-bottom: 30px;*/
 }
-
+/* 8번줄에 first-child 안썼었음.*/
 .user-componenet,
-.user-component__column {
+.user-component__column:first-child {
   display: flex;
   align-items: center;
 }
@@ -20,10 +20,10 @@
   font-size: 22px;
 }
 .user-component__subtitle {
-  color: rgba(0, 0, 0, 0.3);
   margin-top: 8px;
-  font-weight: 600;
   font-size: 17px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
 }
 .user-component__avatar-xl {
   width: 80px;
@@ -36,20 +36,18 @@
 .user-component__title-not-bold {
   font-weight: 400;
 }
-.fa-chevron-right {
-  margin-left: 5px;
-}
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-start;
+  /* justify-content: flex-start;*/
 }
 .user-component__time {
   display: block;
   margin: 10px 0px;
 }
+/*
 .user-component__column-alarm {
   height: 100%;
   display: flex;
@@ -59,3 +57,7 @@
   display: flex;
   align-items: flex-end;
 }
+.fa-chevron-right {
+  margin-left: 5px;
+}
+*/
