@@ -1,10 +1,8 @@
 .user-component {
   justify-content: space-between;
-  /* display: flex;
-  margin-bottom: 30px;*/
+  margin-bottom: 30px;
 }
-/* 8번줄에 first-child 안썼었음.*/
-.user-componenet,
+.user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
@@ -47,17 +45,7 @@
   display: block;
   margin: 10px 0px;
 }
-/*
-.user-component__column-alarm {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
 .user-component__subtitle-box {
   display: flex;
   align-items: flex-end;
 }
-.fa-chevron-right {
-  margin-left: 5px;
-}
-*/
